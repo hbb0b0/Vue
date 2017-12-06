@@ -1,0 +1,5 @@
+webpack-vueRouter/node_modules/
+webpack-vueRouter/dist/
+webpack-vueRouter/*.log
+webpack-vueRouter/.vscode/
+webpack-vueRouter/.vs/
