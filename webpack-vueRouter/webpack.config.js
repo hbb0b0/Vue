@@ -9,7 +9,7 @@ module.exports = {
         /* build 输出目录*/
         path: path.resolve(__dirname, './dist'),
         /* 静态目录，可以直接从这里取文件 */
-        publicPath: '/dist/',
+        publicPath: './dist/',
         /* 输出文件名名称 */
         filename: 'build.js'
     },
@@ -28,5 +28,11 @@ module.exports = {
                 exclude: /node_modules/
             }
         ]
+    },
+
+    devServer: {
+        contentBase: "/src", //本地服务器所加载的页面所在的目录
+        historyApiFallback: true, //不跳转
+        inline: true //实时刷新
     }
 }

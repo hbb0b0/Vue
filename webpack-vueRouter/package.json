@@ -1,5 +1,5 @@
 {
-    "name": "webpack-vuedemo1",
+    "name": "webpack-vuerouter",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -25,4 +25,5 @@
         "webpack": "^2.7.0",
         "webpack-dev-server": "^2.9.5"
     }
+
 }
